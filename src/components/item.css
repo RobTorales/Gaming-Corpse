@@ -1,0 +1,29 @@
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.producto{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 250px;
+}
+
+.imagen-producto{
+    max-width: auto;
+    width: 280px;
+    max-height: auto;
+    height: 260px;
+  }
+
+
+  .div-boton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
