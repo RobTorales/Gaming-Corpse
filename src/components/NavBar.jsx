@@ -6,20 +6,20 @@ const NavBar = () => {
   return (
 <div className="contenedor-nav mb-5">
             <nav className="navbar navbar-expand-lg bg-white">
-                    <Link className="navbar-brand" to="/"><img src="/img/logo-gaming.png" alt="Gaming Corpse" width="220"/></Link>
+                    <a className="navbar-brand" to="/"><img src="/img/logo-gaming.png" alt="Gaming Corpse" width="220"/></a>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                                <a className="nav-link active" aria-current="page" to="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-dark" to="/productos">Productos</Link>
+                                <a className="nav-link text-dark" to="/productos">Productos</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-dark" to="/contacto">Contacto</Link>
+                                <a className="nav-link text-dark" to="/contacto">Contacto</a>
                             </li>
                             <li>
-                                <Link className="nav-link text-dark" to="/ayuda">Ayuda</Link>
+                                <a className="nav-link text-dark" to="/ayuda">Ayuda</a>
                             </li>
                         </ul>
                         <form className="d-flex p-2 " role="search">

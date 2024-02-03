@@ -18,7 +18,6 @@ const ItemDetailContainer = ({itemId}) => {
   return (
     <div>
         {item && <ItemDetail item={item}/>}
-        
     </div>
   )
 }
