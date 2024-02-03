@@ -5,8 +5,8 @@ const ItemList = ({productos}) => {
   return (
     <div >
         <h2 className="text-white">Productos</h2>
-        <div class="container">
-        <div class="row rounded">
+        <div className="container">
+        <div className="row rounded">
             {productos.map((prod) => <Item producto={prod} key ={prod.id}/>)}
         </div>
         </div>
