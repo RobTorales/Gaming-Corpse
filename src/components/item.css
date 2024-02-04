@@ -3,23 +3,21 @@
     justify-content: center;
 }
 
-
-
-.producto{
-    border-radius: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: auto;
-    max-width: 250px;
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+
+
 .imagen-producto{
-    max-width: auto;
-    width: 280px;
-    max-height: auto;
-    height: 260px;
-  }
+  max-width: auto;
+  width: 100%;
+  max-height: auto;
+  height: 230px;
+  padding: 10px;
+}
 
 
   .div-boton{

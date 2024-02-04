@@ -10,7 +10,7 @@
         "id":2,
         "titulo": "Procesador AMD RYZEN 5 4500G 4.0GHz",
         "categoria": "Procesadores",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_936660-MLU72530388684_102023-O.webp",
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1684414208_4600.jpg",
         "precio":159000
     },
     {
@@ -22,93 +22,121 @@
     },
     {
         "id":4,
-        "titulo": "Procesador AMD RYZEN 5 5600G 4.0GHz",
-        "categoria": "Procesadores",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_969901-MLU70017770185_062023-O.webp",
-        "precio":210000
+        "titulo": "Memoria Ram DDR4 4gb 266mhz Corsair",
+        "categoria": "Memorias Ram",
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_771725-MLU73673342223_122023-O.webp",
+        "precio":22990
     },
     {
         "id":5,
+        "titulo": "Procesador AMD RYZEN 5 5600G 4.0GHz",
+        "categoria": "Procesadores",
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1638466775_sdfdgfeshsd.jpg",
+        "precio":210000
+    },
+    {
+        "id":6,
         "titulo": "Procesador AMD RYZEN 5 5600X 4.0GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_806834-MLA44347094824_122020-O.webp",
         "precio":299900
     },
     {
-        "id":6,
+        "id":7,
         "titulo": "Procesador AMD RYZEN 7 5700G 4.0GHz",
         "categoria": "Procesadores",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_622790-MLU72699561931_112023-O.webp",
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1635508558_5700g.jpg",
         "precio":370000
     },
     {
-        "id":7,
+        "id":8,
         "titulo": "Procesador AMD RYZEN 9 5950X 4.9GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_998316-MLA45171395779_032021-O.webp",
         "precio":920000
     },
     {
-        "id":8,
+        "id":9,
         "titulo": "Procesador Intel Celeron G5925 3.6GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_718631-MLU70036157641_062023-O.webp",
         "precio":78350
     },
     {
-        "id":9,
+        "id":10,
         "titulo": "Procesador Intel Core i3 10100F 4.4GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_797362-MLA44803482257_022021-O.webp",
         "precio":94499
     },
     {
-        "id":10,
+        "id":11,
         "titulo": "Procesador Intel Core i5 13600K 4.0GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_666824-MLA52253242031_112022-O.webp",
         "precio":182499
     },
     {
-        "id":11,
+        "id":12,
         "titulo": "Procesador Intel Core i7 13700 5.2GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_858876-MLA52853848428_122022-O.webp",
         "precio":630000
     },
     {
-        "id":12,
+        "id":13,
         "titulo": "Procesador Intel Core i9 12900K 5.2GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_890390-MLA48174536137_112021-O.webp",
         "precio":660000
     },
     {
-        "id":13,
+        "id":14,
         "titulo": "Mother MSI A320M-A PRO AM4",
         "categoria": "Mothers",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_907316-MLA52752220380_122022-O.webp",
+        "imagen":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3DgT3HP57-c6gSk3N7BAjYSElkFXpvxwP8SOJoCRDLbfgDABR",
         "precio":87000
     },
     {
-        "id":14,
+        "id":15,
         "titulo": "Mother ASUS PRIME A320M-K AM4",
         "categoria": "Mothers",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_621380-MLM40520472217_012020-O.webp",
         "precio":87500
     },
     {
-        "id":15,
-        "titulo": "Mother ASUS PRIME A520M-K DDR4 AM4",
-        "categoria": "Mothers",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_748987-MLA43977674486_112020-O.webp",
-        "precio":104000
+        "id":16,
+        "titulo": "Placa de Video Gigabyte Nvidia Geforce GT 1030 2GB LP DDR4",
+        "categoria": "Placas de Video",
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1680798602_1030.jpg",
+        "precio":124000
     },
     {
-        "id":16,
+        "id":17,
+        "titulo": "PowerColor RX550 4gb GDDR5",
+        "categoria": "Placas de video",
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1645545226_2112161734340.jpg",
+        "precio":209999
+    },
+    {
+        "id":18,
         "titulo": "Mother MSI B450M-A PRO MAX",
         "categoria": "Mothers",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_867797-MLA72452221267_102023-O.webp",
         "precio":114000
+    },
+    {
+        "id":19,
+        "titulo": "Placa de Video Gigabyte Nvidia Geforce GT 1030 2GB LP DDR4",
+        "categoria": "Placas de Video",
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1680798602_1030.jpg",
+        "precio":124000
+    },
+    {
+        "id":20,
+        "titulo": "Mother GIGABYTE A520M-K V2 AM4",
+        "categoria": "Mothers",
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1686594197_a520-3.jpg",
+        "precio":104999
     }
 ]

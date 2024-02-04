@@ -1,0 +1,6 @@
+.container-home{
+    display: flex;
+    width: auto;
+    max-width: 1920px;
+    height: 40%
+}
