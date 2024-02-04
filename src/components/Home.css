@@ -2,5 +2,80 @@
     display: flex;
     width: auto;
     max-width: 1920px;
-    height: 40%
+    flex-direction: column;
+}
+
+.contenedor-informacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.img-info{
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    max-height: 80px;
+}
+
+.contenedor-patrocinadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.header-patrocinadores{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+.logo{
+    width: auto;
+    max-width: 170px;
+}
+
+.slider{
+    width: 75vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.slider .slider-track{
+    display: flex;
+    justify-content: space-around;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide{
+    width: 200px;
+}
+
+.slider .slide .patrocinador{
+    height: 90px;
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
 }

@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #27045D;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.derechos{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjetas{
+    height: auto;
+    width: auto;
+    max-width: 40px;
+    max-height: 40px;
+}
