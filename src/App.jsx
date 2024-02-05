@@ -20,7 +20,8 @@ function App() {
               <Routes>
                     <Route  path="/" element={<Home />}/>
                     <Route  path="/productos" element={<ItemListContainer />}/>
-                    <Route  path="/item" element={<ItemDetailContainer itemId={2}/>}/>
+                    <Route  path="/item/:id" element={<ItemDetailContainer />}/>
+                    <Route  path="/productos/:categoria" element={<ItemListContainer/>}/>
                     <Route  path="/ayuda" element={<Ayuda/>}/>
                     <Route  path="/contacto" element={<Contacto/>}/>
                     <Route  path="/terminos-condiciones" element={<TerminosCondiciones/>}/>

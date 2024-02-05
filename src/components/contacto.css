@@ -1,0 +1,8 @@
+.container-contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    background-color: white;
+}
