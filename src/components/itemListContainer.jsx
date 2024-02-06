@@ -8,15 +8,17 @@ const ItemListContainer = () => {
 
   const [productos, setProductos] = useState([]);
   const categoria = useParams().categoria;
-  console.log(categoria)
+  const [ titulo, setTitulo ] = useState("Productos")
 
   useEffect(() => {
     pedirDatos()
       .then((res) => {
         if(categoria){
           setProductos( res.filter((prod) => prod.categoria === categoria));
+          setTitulo(categoria);
         }else{
-          setProductos(res)
+          setProductos(res);
+          setTitulo("Productos");
         }
         
       })
@@ -29,7 +31,7 @@ const ItemListContainer = () => {
 
   return (
     <>
-        <ItemList productos={productos} />
+        <ItemList productos={productos} titulo={titulo}/>
     </>
         
 

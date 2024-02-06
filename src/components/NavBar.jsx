@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import { Link } from "react-router-dom";
+import CartWidget from './cartWidget';
 
 const NavBar = () => {
   return (
@@ -26,7 +27,7 @@ const NavBar = () => {
                             <input className="form form-control me-2 " type="search" id="searchInput"  placeholder="Buscar productos..." aria-label="Search"/>
                             <button className="btn btn-primary" id="searchResults" type="submit"><i className="bi bi-search"></i></button>
                             <a className="btn btn-primary" to="/login"><i className="bi bi-person-fill"></i></a>
-                            <a className="btn btn-primary" id="cartButton"><i className="bi bi-cart3"></i></a>
+                            <CartWidget />
                         </form>
                     </div>
             </nav>
