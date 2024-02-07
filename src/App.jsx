@@ -8,38 +8,15 @@ import TerminosCondiciones from "./components/terminosCondiciones.jsx";
 import Home from './components/Home.jsx';
 import Footer from './components/Footer.jsx';
 import "bootswatch/dist/pulse/bootstrap.min.css"
-import { useState } from 'react';
-import { CartContext } from './context/cartContext.jsx';
+import { CartProvider } from './context/cartContext.jsx';
 import Carrito from './components/carrito.jsx';
 
 function App() {
 
-  const [carrito, setCarrito] = useState([]);
-  
-  const agregarAlCarrito = (item, cantidad) => {
-
-    const itemAgregado = {...item, cantidad};
-
-    const nuevoCarrito = [...carrito]; 
-
-    const estaEnElCarrito = nuevoCarrito.find((producto) => producto.id === itemAgregado.id)
-
-    if(estaEnElCarrito) {
-        estaEnElCarrito.cantidad += cantidad;
-    } else {
-        nuevoCarrito.push(itemAgregado);  
-    }
-    setCarrito(nuevoCarrito); 
-  }
-
-  const cantidadEnCarrito = ()=> {
-    return carrito.reduce((acc, prod) => acc + prod.cantidad, 0); 
-  }
-
   return (
     <>
         <div className="fondo bg-primary">
-          <CartContext.Provider value={{carrito, agregarAlCarrito, cantidadEnCarrito}}>
+          <CartProvider >
             <BrowserRouter>
               <NavBar />
                   <Routes>
@@ -51,10 +28,11 @@ function App() {
                         <Route  path="/contacto" element={<Contacto/>}/>
                         <Route  path="/terminos-condiciones" element={<TerminosCondiciones/>}/>
                         <Route path="/carrito" element={<Carrito/>}/>
+                        <Route path="*" element={<h4>Error 404: Page not found</h4>}/>
                   </Routes>
               <Footer />
             </BrowserRouter>   
-          </CartContext.Provider >
+          </CartProvider >
         </div> 
     </>
   )

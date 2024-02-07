@@ -1,0 +1,46 @@
+.contenedor-carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 900px;
+}
+
+.titulo-comprar{
+    text-align: center;
+    color: white;
+}
+
+.titulo{
+    padding: 10px;
+}
+
+
+.contenedor-resumen{
+    text-align: center;
+}
+
+.carrito{
+    border: solid grey 1px;
+    width: 500%;
+    margin: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: auto;
+}
+
+.acciones{
+    gap: 5px;
+    padding: 15px;
+}
+
+.total{
+    color: white;
+    text-align: left;
+}

@@ -9,6 +9,7 @@ const ItemDetail = ({item}) => {
     console.log(carrito);
 
     const [cantidad, setCantidad] = useState(1);
+    
 
     const handleRestar = () =>{
         cantidad > 1 && setCantidad(cantidad - 1)
@@ -33,7 +34,7 @@ const ItemDetail = ({item}) => {
             </h2>
             <h4>categoría: {item.categoria}</h4>
             
-            <ItemCount cantidad = {cantidad} handleSumar= {handleSumar} handleRestar= {handleRestar} handleAgregar= {()=> { agregarAlCarrito( item, cantidad)}}/>
+            <ItemCount cantidad = {cantidad} handleSumar= {handleSumar} handleRestar= {handleRestar} handleAgregar= { ()=> { agregarAlCarrito( item, cantidad)}}/>
             <ul className='lista'>
                 <li className='item'>
                     <i className="bi bi-check-circle-fill text-primary"></i>

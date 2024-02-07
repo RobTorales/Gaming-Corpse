@@ -1,0 +1,19 @@
+.item-imagen{
+margin-right: 20px;
+}
+
+.carrito-item{
+    position: relative;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+
+.carrito-lista{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+
