@@ -10,12 +10,13 @@ import Footer from './components/Footer.jsx';
 import "bootswatch/dist/pulse/bootstrap.min.css"
 import { CartProvider } from './context/cartContext.jsx';
 import Carrito from './components/carrito.jsx';
+import './App.css';
 
 function App() {
 
   return (
     <>
-        <div className="fondo bg-primary">
+        <div className="bg-primary">
           <CartProvider >
             <BrowserRouter>
               <NavBar />

@@ -33,8 +33,11 @@ const ItemDetail = ({item}) => {
                 </span>
             </h2>
             <h4>categoría: {item.categoria}</h4>
+
+            <div className='gap-5'>
+                <ItemCount cantidad = {cantidad} handleSumar= {handleSumar} handleRestar= {handleRestar} handleAgregar= { ()=> { agregarAlCarrito( item, cantidad)}}/>
+            </div>
             
-            <ItemCount cantidad = {cantidad} handleSumar= {handleSumar} handleRestar= {handleRestar} handleAgregar= { ()=> { agregarAlCarrito( item, cantidad)}}/>
             <ul className='lista'>
                 <li className='item'>
                     <i className="bi bi-check-circle-fill text-primary"></i>

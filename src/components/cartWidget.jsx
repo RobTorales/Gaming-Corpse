@@ -8,7 +8,7 @@ const CartWidget = () => {
     const {cantidadEnCarrito}= useContext(CartContext);
   return (
     <div className='container-carrito'>
-        <Link to ="/carrito" className="btn btn-primary d-flex gap-2" id="cartButton"> 
+        <Link to ="/carrito" className="button d-flex gap-2" id="cartButton"> 
             <i className="bi bi-cart3"></i>
             <span className='numero-carrito'>{cantidadEnCarrito()}</span>
         </Link>

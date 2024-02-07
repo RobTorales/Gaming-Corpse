@@ -21,7 +21,7 @@ const Carrito = () => {
 
     <div className="contenedor-carrito">
                 <div className="carrito ">
-                    <div className="d-flex justify-content-center bg-primary">
+                    <div className="carrito-titulo d-flex justify-content-center ">
                         <h3 className="text-white">Carrito</h3>
                     </div>
                 
@@ -32,9 +32,15 @@ const Carrito = () => {
                     <h3 className="titulo text-primary">Resumen</h3>
                     <div className="acciones">
                         <div className="total text-primary">Total: ${precioTotal ()}</div>
-                          <Link type="button" className="btn btn-primary w-100" onClick={() => limpiarCarrito()}>Limpiar Carrito</Link>
+                        <div className="botones-carrito d-flex">
+                          <div>
+                          <Link type="button" className="button w-100" onClick={() => limpiarCarrito()}>Limpiar Carrito</Link>
+                         </div>
+                         <div> 
+                          <Link type="button" to="/checkout" className="button-comprar w-100" >Comprar</Link>
+                          </div>
+                        </div>
                           
-                          <Link to="/checkout" className="btn btn-primary w-100" >Comprar</Link>
                           
                     </div>
                 

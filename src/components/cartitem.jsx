@@ -15,7 +15,7 @@ const cartItem = ({producto}) => {
                 <p>Cantidad: {producto.cantidad}</p>
                 <p>Precio unitario: ${producto.precio}</p>
                 <p >Precio total: ${producto.precio * producto.cantidad}</p>
-                <button onClick={() => borrarItem(producto.id)} className='btn btn-danger'><i  className="i-eliminar bi-trash-fill"></i></button>
+                <button onClick={() => borrarItem(producto.id)} className='button-eliminar'><span><i  className="i-eliminar bi-trash-fill"></i></span></button>
               </div>
           </div>
         </div>

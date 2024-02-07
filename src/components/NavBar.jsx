@@ -25,8 +25,8 @@ const NavBar = () => {
                         </ul>
                         <form className="d-flex p-2 gap-2" role="search">
                             <input className="form form-control me-2 " type="search" id="searchInput"  placeholder="Buscar productos..." aria-label="Search"/>
-                            <button className="btn btn-primary" id="searchResults" type="submit"><i className="bi bi-search"></i></button>
-                            <a className="btn btn-primary" to="/login"><i className="bi bi-person-fill"></i></a>
+                            <button className="button" id="searchResults" type="submit"><i className="bi bi-search"></i></button>
+                            <a className="button" to="/login"><i className="bi bi-person-fill"></i></a>
                             <CartWidget />
                         </form>
                     </div>
