@@ -5,7 +5,7 @@
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_890018-MLA42157659341_062020-O.webp",
         "stock": 10,
-        "precio":125.259
+        "precio":125259
     },
     {
         "id":2,
@@ -13,7 +13,7 @@
         "categoria": "Placas de video",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_889104-MLA32007499076_082019-O.webp",
         "stock": 10,
-        "precio":410.741
+        "precio":410741
     },
     {
         "id":3,
@@ -21,7 +21,7 @@
         "categoria": "Procesadores",
         "imagen":"https://www.venex.com.ar/products_images/thumb/1684414208_4600.jpg",
         "stock": 10,
-        "precio":159.369
+        "precio":159369
     },
     {
         "id":4,
@@ -29,7 +29,7 @@
         "categoria": "Placas de video",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_956553-MCO53710809459_022023-O.webpp",
         "stock": 10,
-        "precio":124.999
+        "precio":124999
     },
     {
         "id":5,
@@ -37,7 +37,7 @@
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_797362-MLA44803482257_022021-O.webp",
         "stock": 10,
-        "precio":94.499
+        "precio":94499
     },
     
     {
@@ -45,7 +45,7 @@
         "titulo": "Mother ASUS PRIME A320M-K AM4",
         "categoria": "Mothers",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_621380-MLM40520472217_012020-O.webp",
-        "precio":87.521,
+        "precio":87521,
         "stock": 10
     },
     {
@@ -53,7 +53,7 @@
         "titulo": "Memoria Ram DDR4 4gb 2666mhz Corsair",
         "categoria": "Memorias Ram",
         "imagen":"https://www.migos.com.ar/wp-content/uploads/2022/11/Memoria-RAM-Vengeance-LPX-gamer-color-negro-8GB-1-Corsair-CMK8GX4M1Z3200C16.webp",
-        "precio":22.999,
+        "precio":22999,
         "stock": 10
     },
     {
@@ -61,7 +61,7 @@
         "titulo": "Disco Duro Seagate Barracuda 500GB",
         "categoria": "Discos",
         "imagen":"https://tienda.ecomputer.es/89154-large_default/disco-duro-500gb-7200rpm-seagate-barracuda-sata6.jpg",
-        "precio":54.999,
+        "precio":54999,
         "stock": 10
     },
     {
@@ -69,7 +69,7 @@
         "titulo": "Fuente 500w Redragon 80 Plus",
         "categoria": "Fuentes",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_740263-MLA46794279088_072021-O.webp",
-        "precio":98.999,
+        "precio":98999,
         "stock": 10
     },
     {
@@ -77,7 +77,7 @@
         "titulo": "Procesador AMD RYZEN 5 5600G 4.0GHz",
         "categoria": "Procesadores",
         "imagen":"https://www.venex.com.ar/products_images/thumb/1638466775_sdfdgfeshsd.jpg",
-        "precio":210.567,
+        "precio":210567,
         "stock": 10
     },
     {
@@ -85,7 +85,7 @@
         "titulo": "Mother MSI B450M-A PRO MAX",
         "categoria": "Mothers",
         "imagen":"https://spacegamer.com.ar/img/Public/1058-producto-mother-msi-b450m-prom2-max-sam4-01-a629922cd169ae408b16217024381219.jpg",
-        "precio":114.535,
+        "precio":114535,
         "stock": 10
     },
     {
@@ -93,7 +93,7 @@
         "titulo": "Fuente 500w Thermaltake Smart 80 Plus",
         "categoria": "Fuentes",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_858646-MLU72643186961_112023-O.webp",
-        "precio":116.999,
+        "precio":116999,
         "stock": 10
     },
     {
@@ -101,7 +101,7 @@
         "titulo": "Procesador AMD RYZEN 5 5600X 4.0GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_806834-MLA44347094824_122020-O.webp",
-        "precio":299.999,
+        "precio":300000,
         "stock": 10
     },
     {
@@ -109,7 +109,7 @@
         "titulo": "PowerColor RX550 4gb GDDR5",
         "categoria": "Placas de video",
         "imagen":"https://www.venex.com.ar/products_images/thumb/1645545226_2112161734340.jpg",
-        "precio":209.999,
+        "precio":209999,
         "stock": 10
     },
     {
@@ -117,7 +117,7 @@
         "titulo": "Disco Solido SSD 240gb Gigabyte",
         "categoria": "Discos",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_756430-MLU72836537613_112023-O.webp",
-        "precio":21.854,
+        "precio":21854,
         "stock": 10
     },
     {
@@ -125,7 +125,7 @@
         "titulo": "Procesador AMD RYZEN 7 5700G 4.0GHz",
         "categoria": "Procesadores",
         "imagen":"https://www.venex.com.ar/products_images/thumb/1635508558_5700g.jpg",
-        "precio":370.523,
+        "precio":370523,
         "stock": 10
     },
     {
@@ -133,7 +133,7 @@
         "titulo": "Fuente Gigabyte 650W 80 Plus",
         "categoria": "Fuentes",
         "imagen":"https://www.venex.com.ar/products_images/thumb/1576065933_1518806628_2017081617271726_big.jpg",
-        "precio":116.999,
+        "precio":116999,
         "stock": 10
     },
     {
@@ -141,7 +141,7 @@
         "titulo": "Memoria Ram DDR4 4gb 3200mhz Fury Beast",
         "categoria": "Memorias Ram",
         "imagen":"https://www.fullh4rd.com.ar/img/productos/4/memoria-8gb-ddr4-3200-kingston-fury-beast-0.jpg",
-        "precio":22.999,
+        "precio":22999,
         "stock": 10
     },
     {
@@ -149,7 +149,7 @@
         "titulo": "Procesador Intel Celeron G5925 3.6GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_718631-MLU70036157641_062023-O.webp",
-        "precio":78.352,
+        "precio":78352,
         "stock": 10
     },
     {
@@ -157,7 +157,7 @@
         "titulo": "Disco Duro HDD 1TB Western Digital Blue",
         "categoria": "Discos",
         "imagen":"https://www.venex.com.ar/products_images/thumb/1586464610_disc3.jpg",
-        "precio":94.999,
+        "precio":94999,
         "stock": 10
     },
     {
@@ -165,7 +165,7 @@
         "titulo": "Procesador AMD RYZEN 9 5950X 4.9GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_998316-MLA45171395779_032021-O.webp",
-        "precio":920.508,
+        "precio":920508,
         "stock": 10
     },
     {
@@ -173,7 +173,7 @@
         "titulo": "Memoria Ram DDR4 8gb 3200Mhz Patriot Viper Steel RGB Black",
         "categoria": "Memorias Ram",
         "imagen":"https://www.venex.com.ar/products_images/1617649633_viper_steel_rgb_b_back.jpg",
-        "precio":37.999,
+        "precio":37999,
         "stock": 10
     },
     
@@ -182,7 +182,7 @@
         "titulo": "Mother GIGABYTE A520M-K V2 AM4",
         "categoria": "Mothers",
         "imagen":"https://www.venex.com.ar/products_images/thumb/1686594197_a520-3.jpg",
-        "precio":104.999,
+        "precio":104999,
         "stock": 10
     },
     {
@@ -190,7 +190,7 @@
         "titulo": "Procesador AMD RYZEN 5 3600 4.0GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_747543-MLU72578974236_112023-O.webp",
-        "precio":180.199,
+        "precio":180199,
         "stock": 10
     },
     {
@@ -198,7 +198,7 @@
         "titulo": "Procesador Intel Core i5 13600K 4.0GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_666824-MLA52253242031_112022-O.webp",
-        "precio":182.499,
+        "precio":182499,
         "stock": 10
     },
     {
@@ -206,7 +206,7 @@
         "titulo": "Memoria Ram DDR4 8gb 3200mhz Fury Beast",
         "categoria": "Memorias Ram",
         "imagen":"https://www.fullh4rd.com.ar/img/productos/4/memoria-8gb-ddr4-3200-kingston-fury-beast-0.jpg",
-        "precio":34.999,
+        "precio":34999,
         "stock": 10
     },
     
@@ -215,7 +215,7 @@
         "titulo": "Procesador Intel Core i9 12900K 5.2GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_890390-MLA48174536137_112021-O.webp",
-        "precio":660.432,
+        "precio":660432,
         "stock": 10
     },
     {
@@ -223,7 +223,7 @@
         "titulo": "Mother MSI A320M-A PRO AM4",
         "categoria": "Mothers",
         "imagen":"https://acdn.mitiendanube.com/stores/002/278/419/products/a320m-a-pro1-e879eb520e4904092216947240354196-640-0.webp",
-        "precio":87.509,
+        "precio":87509,
         "stock": 10
     },
     {
@@ -231,7 +231,7 @@
         "titulo": "Fuente 550w Corsair Cv550 80Plus",
         "categoria": "Fuentes",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_933815-MLU72834466975_112023-O.webp",
-        "precio":106.999,
+        "precio":106999,
         "stock": 10
     },
     {
@@ -239,7 +239,7 @@
         "titulo": "Procesador Intel Core i7 13700 5.2GHz",
         "categoria": "Procesadores",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_858876-MLA52853848428_122022-O.webp",
-        "precio":630.105,
+        "precio":630105,
         "stock": 10
     },
     
@@ -248,7 +248,7 @@
         "titulo": "Placa de video Gigabyte Amd Radeon Rx 6500Xt",
         "categoria": "Placas de video",
         "imagen":"https://http2.mlstatic.com/D_NQ_NP_637328-MLA72005864039_092023-O.webp",
-        "precio":301.638,
+        "precio":301638,
         "stock": 10
     },
     {
@@ -256,7 +256,7 @@
         "titulo": "Disco Solido SSD 480GB Western Digital Green",
         "categoria": "Discos",
         "imagen":"https://www.venex.com.ar/products_images/1689954319_ssd.png",
-        "precio":519.999,
+        "precio":519999,
         "stock": 10
     }
     
