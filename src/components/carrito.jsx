@@ -9,7 +9,7 @@ const Carrito = () => {
 
   if(carrito.length == 0){
     return(
-      <div className='contenedor-nocarrito  p-5  mt-6'>
+      <div className='contenedor-nocarrito '>
         <div>
           <h2 className='text-white'>No hay items en el carrito</h2>
         </div>

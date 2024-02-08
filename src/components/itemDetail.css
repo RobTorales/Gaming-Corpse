@@ -1,7 +1,6 @@
 .lista{
     list-style-type: none;
     padding: 18px;
-    
 }
 
 .item{
@@ -27,4 +26,11 @@
 
 .bi-truck{
     font-size: 28px;
+}
+
+ @media (max-width:400px) {
+    .row{
+        width: auto;
+        max-width: 310px;
+    }
 }
