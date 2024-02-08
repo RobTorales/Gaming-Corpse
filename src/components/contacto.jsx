@@ -44,9 +44,9 @@ const Contacto = () => {
                         </div>
                     </div>
                     <div className="mb-3 m-2">
-                        <div className="row d-flex justify-content-center">
-                            <button type="submit" className="btn btn-primary w-auto me-1">Enviar</button>
-                            <button type="reset" className="btn btn-primary w-auto ms-1">Limpiar</button>
+                        <div className="row d-flex justify-content-center gap-4">
+                            <button type="submit" className="button">Enviar</button>
+                            <button type="reset" className="button">Limpiar</button>
                         </div>
                     </div>
                 </form>

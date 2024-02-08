@@ -68,13 +68,13 @@
   }
   
   .button-comprar:hover {
-    box-shadow: #15D11B 0px 7px 0px 0px;
+    box-shadow: #12B818 0px 7px 0px 0px;
   }
   
   .button-comprar:active {
-    background-color: #15D11B;
+    background-color: #12B818;
     /*50, 168, 80*/
-    box-shadow: #15D11B 0px 0px 0px 0px;
+    box-shadow: #12B818 0px 0px 0px 0px;
     transform: translateY(5px);
     transition: 200ms;
   }

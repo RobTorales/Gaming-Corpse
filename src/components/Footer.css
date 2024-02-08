@@ -27,3 +27,11 @@
     max-width: 40px;
     max-height: 40px;
 }
+
+@media (max-width: 500px) {
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
