@@ -1,4 +1,5 @@
 import { createContext, useEffect, useState } from "react";
+import { toast, Bounce } from 'react-toastify';
 
 
 export const CartContext = createContext();
@@ -11,14 +12,25 @@ export const CartProvider = ({children}) => {
 
     const agregarAlCarrito = (item, cantidad) => {
         const itemAgregado = { ...item, cantidad };
-
+    
         const nuevoCarrito = [...carrito];
         const estaEnElCarrito = nuevoCarrito.find((producto) => producto.id === itemAgregado.id);
-
+    
         if (estaEnElCarrito) {
             estaEnElCarrito.cantidad += cantidad;
         } else {
             nuevoCarrito.push(itemAgregado);
+            toast.success(`Producto agregado al carrito`, {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                transition: Bounce,
+            });   
         }
         setCarrito(nuevoCarrito);
     }

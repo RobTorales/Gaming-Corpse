@@ -7,11 +7,16 @@ const Carrito = () => {
 
   const { carrito, limpiarCarrito, precioTotal } = useContext(CartContext)
 
-  if(CartContext.length == 0){
+  if(carrito.length == 0){
     return(
-      <div className='container'>
-        <h2>No hay items en el carrito</h2>
-        <Link to ="/">Productos</Link>
+      <div className='contenedor-nocarrito  p-5  mt-6'>
+        <div>
+          <h2 className='text-white'>No hay items en el carrito</h2>
+        </div>
+        <div>
+        <Link className="button-eliminar" to ="/productos"><i class="bi bi-arrow-return-left"></i>Productos</Link>
+        </div>
+       
       </div>
     )
   }
@@ -20,7 +25,7 @@ const Carrito = () => {
   return (
 
     <div className="contenedor-carrito">
-                <div className="carrito ">
+                <div className="carrito">
                     <div className="carrito-titulo d-flex justify-content-center ">
                         <h3 className="text-white">Carrito</h3>
                     </div>

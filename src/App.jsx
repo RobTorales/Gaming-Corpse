@@ -11,6 +11,10 @@ import "bootswatch/dist/pulse/bootstrap.min.css"
 import { CartProvider } from './context/cartContext.jsx';
 import Carrito from './components/carrito.jsx';
 import './App.css';
+import "react-toastify/dist/ReactToastify.css";
+import Checkout from './components/Checkout.jsx';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -19,6 +23,7 @@ function App() {
         <div className="bg-primary">
           <CartProvider >
             <BrowserRouter>
+            <ToastContainer />
               <NavBar />
                   <Routes>
                         <Route  path="/" element={<Home />}/>
@@ -29,11 +34,13 @@ function App() {
                         <Route  path="/contacto" element={<Contacto/>}/>
                         <Route  path="/terminos-condiciones" element={<TerminosCondiciones/>}/>
                         <Route path="/carrito" element={<Carrito/>}/>
+                        <Route path="/checkout" element={<Checkout/>}/>
                         <Route path="*" element={<h4>Error 404: Page not found</h4>}/>
                   </Routes>
               <Footer />
             </BrowserRouter>   
           </CartProvider >
+          
         </div> 
     </>
   )

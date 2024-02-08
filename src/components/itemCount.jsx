@@ -2,7 +2,9 @@ import React from 'react'
 import "./itemCount.css"
 import './item.css'
 
-const ItemCount = ({cantidad, handleRestar, handleSumar, handleAgregar}) => {
+const ItemCount = ({cantidad, handleRestar, handleSumar, handleAgregar, mensaje}) => {
+
+
 
   return (
     <div className='count'>
