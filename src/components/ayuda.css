@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
     gap:25px
 }
 
@@ -19,6 +20,9 @@
 }
 
 @media (max-width:500px) {
+    .contenedor-ayuda{
+        margin: 20px;
+    }
     .contenedor-terminos{
         display: flex;
         justify-content: center;
