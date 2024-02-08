@@ -4,10 +4,11 @@ import { Link } from "react-router-dom"
 
 const Ayuda = () => {
   return (
+    <div className='contenedor-ayuda'>
     <div className="container-ayuda text-center">
       <h2 className="text-white">Preguntas Frecuentes</h2>
-      <div className="contenedor-acordeon w-50">
-          <div className="accordion" id="accordionExample">
+      <div className="contenedor-acordeon ">
+          <div className="accordion " id="accordionExample">
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -83,8 +84,10 @@ const Ayuda = () => {
           </div>
         </div>
 
-        <div className="contenedor-terminos">
-          <div className="w-50 bg-white rounded m-4 p-3">
+        
+      </div>
+    <div className="contenedor-terminos">
+          <div className="terminos bg-white rounded m-4 p-3 w-80">
             <h3 className="text-primary">Servicio postventa y garantías</h3>
             <div>
             Para realizar consultas/reclamos relacionadas con la garantía o devolución de alguna de tus compras, debajo de esta sección contamos con el apartado "Compra Gamer te ayuda. ¿Cuál es tu consulta?" donde debes exponer tu caso, seleccionando el motivo de "Postventa" que se adapte a tu requerimiento y uno de nuestros representantes te ofrecerá la información correspondiente sobre cómo proceder.
@@ -95,7 +98,8 @@ const Ayuda = () => {
             </div>
           </div>
         </div>
-      </div>
+    </div>
+    
       
   )
 }

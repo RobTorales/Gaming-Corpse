@@ -1,4 +1,4 @@
-.container-ayuda {
+.contenedor-ayuda {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,11 +6,35 @@
     gap:25px
 }
 
-.contenedor-terminos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.contenedor-acordeon{
+    width: auto;
+    max-width: 800px;
 }
 
+.contenedor-terminos{
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 840px;
+}
+
+@media (max-width:500px) {
+    .contenedor-terminos{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        max-width: 400px;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contenedor-acordeon{
+        width: auto;
+        max-width: 400px;
+    }
+
+    .terminos{
+        width: 100%;
+    }
+}
 
