@@ -26,7 +26,7 @@ const ItemDetail = ({item}) => {
                 <h2>{item.titulo}</h2>
                 <img className="img-fluid" src={item.imagen} alt={item.titulo}/>
             </div>
-            <div className="col-md-5 p-5">
+            <div className=" col-md-5 p-5">
                 <h2>
                     <span className='text-primary'>
                         ${item.precio}

@@ -28,9 +28,9 @@
     font-size: 28px;
 }
 
- @media (max-width:400px) {
+ @media (max-width:500px) {
     .row{
         width: auto;
-        max-width: 310px;
+        max-width: 460px;
     }
 }
