@@ -62,19 +62,19 @@
     letter-spacing: 1.5px;
     font-size: 15px;
     transition: all 0.3s ease;
-    box-shadow: #15D11B 0px 10px 0px 0px;
+    box-shadow: #06AD0C 0px 10px 0px 0px;
     color: hsl(0, 0%, 100%);
     cursor: pointer;
   }
   
   .button-comprar:hover {
-    box-shadow: #12B818 0px 7px 0px 0px;
+    box-shadow: #06AD0C 0px 7px 0px 0px;
   }
   
   .button-comprar:active {
-    background-color: #12B818;
+    background-color: #06AD0C;
     /*50, 168, 80*/
-    box-shadow: #12B818 0px 0px 0px 0px;
+    box-shadow: #06AD0C 0px 0px 0px 0px;
     transform: translateY(5px);
     transition: 200ms;
   }
@@ -83,7 +83,6 @@
     display: flex; 
     justify-content:center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 40px;
     height: 100vh;
   }
