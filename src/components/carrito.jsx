@@ -14,7 +14,7 @@ const Carrito = () => {
           <h2 className='text-white'>No hay items en el carrito</h2>
         </div>
         <div>
-        <Link className="button-eliminar" to ="/productos"><i class="bi bi-arrow-return-left"></i>Productos</Link>
+        <Link className="button-eliminar" to ="/productos"><i className="bi bi-arrow-return-left"></i>Productos</Link>
         </div>
        
       </div>
