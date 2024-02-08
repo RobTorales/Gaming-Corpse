@@ -1,35 +1,10 @@
 import React from 'react'
-
+import './terminosCondiciones.css'
 
 const TerminosCondiciones = () => {
   return (
-    <div className="container">
-      <nav id="navbar-example2" className="navbar bg-body-tertiary px-3 mb-3">
-            <a className="navbar-brand" href="#"><h2 className="text-primary">Términos y condiciones de garantía</h2></a>
-            <ul className="nav nav-pills">
-              <li className="nav-item">
-                <a className="nav-link" href="#scrollspyHeading1">Validez de la garantía</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#scrollspyHeading2">Tiempo de garantía</a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Mas...</a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#scrollspyHeading3">Cobertura de garantía</a></li>
-                  <li><a className="dropdown-item" href="#scrollspyHeading4">Devolucion</a></li>
-                  <li><hr className="dropdown-divider"/></li>
-                  <li><a className="dropdown-item" href="#scrollspyHeading5">Salvaguarda de información</a></li>
-                  <li><a className="dropdown-item" href="#scrollspyHeading6">Garantía solicitada por terceros</a></li>
-                  <li><a className="dropdown-item" href="#scrollspyHeading7">Reparación o reemplazo de productos</a></li>
-                  <li><a className="dropdown-item" href="#scrollspyHeading8">Envío/retiro del service</a></li>
-                  <li><a className="dropdown-item" href="#scrollspyHeading9">Fuera de garantía</a></li>
-                  <li><a className="dropdown-item" href="#scrollspyHeading10">Recepción de paquetes en mal estado</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <div className="container mb-5 w-100">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example bg-body-tertiary p-3 rounded-2 m-5 " tabIndex="0">
             <strong><p className="text-primary">Al utilizar el servicio de Post Venta de Newton Station S.R.L. usted acepta los términos y condiciones de la garantía Newton Station SRL ofrece garantía sobre los productos vendidos, la venta se realiza exclusivamente a través de la página web. Bajo ningún concepto se realizan ventas por otra vía/medio.</p></strong>
             <h4 id="scrollspyHeading1" className="text-primary">Validez de la garantía</h4>
             <p>Toda garantía de producto queda sujeta a la revisión y validación por parte del personal técnico de Newton Station S.R.L. quien determinara si el producto cumple con las condiciones de garantía de acuerdo con las políticas de cada marca para sus productos. La comunicación telefónica, web, mail, el pedido de información, coordinación y/o envío del producto hacia las instalaciones de Newton Station (la lista no es limitante) no conforman la validación ni aceptación del producto como en garantía.Para aquellos productos en que la marca solicita que el consumidor final sea quien tramite la garantía de forma directa, Newton Station S.R.L. solo está obligado a compartir la información de contacto del fabricante, sin embargo, nuestro servicio de postventa acompañará al cliente en el trámite de su garantía, siendo ajeno y no teniendo responsabilidad alguna sobre el resultado de este.</p>
@@ -55,7 +30,9 @@ const TerminosCondiciones = () => {
             <p>Una vez informado que el Service está solucionado, se debe coordinar el envío / retiro. Newton Station S.R.L. guardará los productos de los Service solucionados por un plazo máximo de 90 días. Pasado este tiempo, Newton Station S.R.L. dispondrá de los productos según su criterio, no pudiendo existir reclamo alguno por parte del cliente.</p>
             <h4 id="scrollspyHeading9" className="text-primary">Fuera de garantía</h4>
             <p>En caso de que el personal técnico de Newton Station S.R.L. declare un producto como fuera de garantía se le informara al cliente para coordinar la devolución del producto, quedando Newton Station S.R.L. sin responsabilidad sobre el funcionamiento y fallas que presente el producto. En caso de considerar posible y bajo exclusivo criterio de Newton Station S.R.L. se puede ofrecer el intento de reparación sobre un producto con daño físico y/o que este fuera de garantía (esto aplica a daño físico y garantía vencida por tiempo). Esto no constituye la aceptación del producto en garantía ni es garantía de que el arreglo del producto sea exitoso. El cliente acepta que no podrá reclamar garantía sobre el arreglo ni el funcionamiento del producto. Serán causas de anulación de la garantía (la lista no es limitante):
-              <ul>
+              
+            </p>
+            <ul>
                 <li>La operación del producto en condiciones no indicadas en el Manual del Usuario</li>
                 <li>Cintas / fajas de seguridad violadas o en mal estado</li>
                 <li>La falta de mantenimiento según lo indica el Manual del Usuario</li>
@@ -66,7 +43,6 @@ const TerminosCondiciones = () => {
                 <li>La garantía carecerá de validez si se observaren enmiendas o tachaduras en los datos del certificado de garantía o factura de compra.</li>
                 <li>Monitores: Los Pixeles Quemados en monitores quedan sujetos a la política de cada marca.</li>
               </ul>
-            </p>
             <h4 id="scrollspyHeading10" className="text-primary">Recepción de paquetes en mal estado</h4>
             <p>Recomendamos no recibir paquetes que se encuentren con el envoltorio abierto, roto y/o con signos de maltrato. En caso de que esto suceda, dejar asentado en la planilla del correo al momento de recibir/retirar el paquete, detallando las condiciones en las que se encuentra e informarlo a Newton Station a través de la sección AYUDA de la web, seleccionando el motivo Consulta sobre mi Envío. En caso de haber recibido un producto en esas condiciones el cliente dispone de 24hs para hacer el reclamo a través del canal de comunicación de la web Sección Ayuda - Compra Gamer te Ayuda. ¿Cuál es tu consulta? seleccionar PostVenta: necesito ayuda con mi producto. Pasado ese tiempo se da por entendido que el producto llego en condiciones y completo. En caso de que el cliente quiera hacer uso de la garantía del producto y al momento de inspeccionarlo, ya sea mediante material fotográfico o de manera presencial se encuentre que el mismo presenta daño físico que no fue informado por el cliente en tiempo y forma se procederá al rechazo de la garantía por daño físico, no pudiendo el cliente hacer reclamo sobre el estado y funcionamiento del producto</p>
           </div>
