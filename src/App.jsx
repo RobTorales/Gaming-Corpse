@@ -15,6 +15,9 @@ import "react-toastify/dist/ReactToastify.css";
 import Checkout from './components/Checkout.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Login from './components/Login.jsx';
+
+
 
 function App() {
 
@@ -35,6 +38,7 @@ function App() {
                         <Route  path="/terminos-condiciones" element={<TerminosCondiciones/>}/>
                         <Route path="/carrito" element={<Carrito/>}/>
                         <Route path="/checkout" element={<Checkout/>}/>
+                        <Route path="/login" element={<Login/>}/>
                         <Route path="*" element={<h4>Error 404: Page not found</h4>}/>
                   </Routes>
               <Footer />

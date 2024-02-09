@@ -32,7 +32,7 @@ const NavBar = () => {
       </ul> 
     </div>
     <form className="d-flex p-2 gap-2" role="search">
-        <a className="button" to="/login"><i className="bi bi-person-fill"></i></a>
+        <Link className="button" to="/login"><i className="bi bi-person-fill"></i></Link>
         <CartWidget />
     </form>
     
