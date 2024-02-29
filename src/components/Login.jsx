@@ -12,11 +12,11 @@ const Login = () => {
                 <form >
                     <div className="mb-3 gap-2">
                         <label className='text-dark'>Email:</label>
-                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
+                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="email" />
                     </div>
                     <div className="mb-3">
                         <label className='text-dark'>Contraseña:</label>
-                        <input type="password" className="form-control" id="password" placeholder="password"/>
+                        <input type="password" className="form-control" id="password" placeholder="contraseña"/>
                     </div>
                     <div className="div-boton gap-3">
                         <button type="button" className="button" id="btnLogIn">LogIn</button>

@@ -4,6 +4,7 @@ import ItemDetail from './itemdetail';
 import { useParams } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore"
 import { db } from '../firebase/firebaseConfig';
+import Loading from './loading';
 
 const ItemDetailContainer = () => {
 
@@ -22,9 +23,15 @@ const ItemDetailContainer = () => {
     }, [id])
 
   return (
-    <div>
-        {item && <ItemDetail item={item}/>}
+    
+      <div>
+        {
+            item && <ItemDetail item={item}/>
+        }
+        
     </div>
+    
+    
   )
 }
 

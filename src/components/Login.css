@@ -1,0 +1,22 @@
+.container-login{
+    display: flex;
+
+}
+
+.container-logo-login{
+    padding: 40px;
+}
+
+.logo-login{
+    width: 80%;
+}
+
+.div-login{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.login{
+    gap: 20px;
+}

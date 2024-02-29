@@ -40,9 +40,12 @@ const Carrito = () => {
                         <div className="botones-carrito d-flex">
                           <div>
                           <Link type="button" className="button w-100" onClick={() => limpiarCarrito()}>Limpiar Carrito</Link>
-                         </div>
-                         <div> 
+                          </div>
+                          <div> 
                           <Link type="button" to="/checkout" className="button-comprar w-100" >Comprar</Link>
+                          </div>
+                          <div>
+                            <Link type="button" className="button-eliminar w-100" to="/productos">Seguir Comprando</Link>
                           </div>
                         </div>
                           

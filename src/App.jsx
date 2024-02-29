@@ -21,6 +21,7 @@ import Login from './components/Login.jsx';
 
 function App() {
 
+
   return (
     <>
         <div className="bg-primary">
@@ -38,7 +39,7 @@ function App() {
                         <Route  path="/terminos-condiciones" element={<TerminosCondiciones/>}/>
                         <Route path="/carrito" element={<Carrito/>}/>
                         <Route path="/checkout" element={<Checkout/>}/>
-                        <Route path="/login" element={<Login/>}/>
+                        <Route path="/login" element= { <Login/>}/>
                         <Route path="*" element={<h4>Error 404: Page not found</h4>}/>
                   </Routes>
               <Footer />

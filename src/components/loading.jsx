@@ -1,11 +1,13 @@
 import React from 'react'
 import './loading.css'
-import { Spinner } from "react-bootstrap";
 
 const Loading = () => {
   return (
     <div className="contenedor-spinner">
-        <Spinner className="text-white"/>
+         <div class="loader">
+          <span class="loader-text">cargando</span>
+          <span class="load"></span>
+        </div>
     </div>
 )
   
