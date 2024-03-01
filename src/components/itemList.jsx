@@ -6,7 +6,7 @@ import Loading from "./loading";
 
 const ItemList = ({ productos, titulo }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 12; 
+  const productsPerPage = 16; 
 
 
   const indexOfLastProduct = currentPage * productsPerPage;
