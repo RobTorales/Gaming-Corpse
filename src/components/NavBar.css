@@ -7,9 +7,19 @@
 
   .img-logo{
     width: auto;
-    width: 200px;
+    max-width: 200px;
     height: auto;
-    height: 90px;
+    max-height: 90px;
   }
 
+  @media screen and (max-width:434) {
+    .img-logo{
+      width: auto;
+      max-width: 1500px;
+      height: auto;
+      max-height: 90px;
+    }
+  }
+
+ 
 
